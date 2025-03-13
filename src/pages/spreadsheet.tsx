@@ -1,32 +1,7 @@
-export default function SpreadSheet() {
+import SpreadSheet from "@/components/Spreadsheet";
+
+export default function SpreadSheetPage() {
     return (
-        <table>
-            <tbody>
-                <tr>
-                    <th></th>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>C</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>3</th>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <th>4</th>
-                    <th>5</th>
-                    <th>6</th>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <th>7</th>
-                    <th>8</th>
-                    <th>9</th>
-                </tr>
-            </tbody>
-        </table>
+        <SpreadSheet />
     )
 }
